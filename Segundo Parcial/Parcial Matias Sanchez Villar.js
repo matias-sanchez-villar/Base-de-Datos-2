@@ -180,9 +180,9 @@ db.sales.find(
 **
 **  5-B) Filtrar registros completos que NO contengan items de "/envelopes/" para la compra.
 **
-**  c. Filtrar a compradoras com metodo de compra "In store".
+**  5-C) Filtrar a compradoras com metodo de compra "In store".
 **
-**  d. Mostrar los siguientes datos:
+**  5-D). Mostrar los siguientes datos:
 
         * saleDate
 
@@ -196,9 +196,9 @@ db.sales.find(
 
         * couponUsed
 **
-**  e. Ocultar el campo _id
+**  5-E) Ocultar el campo _id
 **
-**  f. Ordenar por satisfaccion del cliente en forma descenciente
+**  5-F) Ordenar por satisfaccion del cliente en forma descenciente
 **
 */
 db.sales.find(
