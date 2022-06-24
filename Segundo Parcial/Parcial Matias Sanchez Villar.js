@@ -60,7 +60,7 @@ db.sales.find(
 */
 db.sales.find(
     {
-        storeLocation: { $in: ["San Diego", "London", "Denver"] },
+        storeLocation: { $in: ["New York", "London", "Denver"] },
         "items.name": {
             $in : [/backpack/, /laptop/]
         }
@@ -110,7 +110,7 @@ db.sales.find(
 db.sales.find(
     {
         "customer.age" : { $lt: 30, $gt: 20 },
-        "customer.satisfaction" : { $lte: 3 },
+        "customer.satisfaction" : { $lt: 3 },
         "customer.gender" :  'M',
         couponUsed: true
     },
